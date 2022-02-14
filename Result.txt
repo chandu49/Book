@@ -1,0 +1,27 @@
+[root@bdc1-so1-blb02 log]# cat uvscan.log 
+Command Line Scanner for Linux64 Version: 7.0.1.544
+Copyright (C) 2021 McAfee, Inc.
+(408) 988-3832 LICENSED COPY - January 20 2022
+
+
+
+AV Engine version: 6400.9594 for Linux64.
+
+
+Dat set version: 10243  created Jan 30 2022
+Scanning for 673430 viruses, trojans and variants.
+
+
+No file or directory found matching /virus
+/home/cchandrakanth/antivirus/EICAR.COM [MD5:69630e4574ec6798239b091cda43dca0] ... Found: EICAR test file NOT a virus.
+
+
+Summary Report on /home/cchandrakanth
+File(s)
+        Total files:...................     25
+        Clean:.........................     24
+        Not Scanned:...................     0
+        Possibly Infected:.............     1
+
+
+Time: 00:00:01
