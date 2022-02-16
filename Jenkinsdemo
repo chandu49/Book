@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Dev SCM') {
+            steps {
+                echo 'Dev App'
+            }
+        }
+		stage('SIT SCM') {
+            steps {
+                echo 'STAGING App'
+            }
+        }
+		stage('Prod SCM') {
+            steps {
+                echo 'Prod App'
+            }
+        }
+    }
+}
