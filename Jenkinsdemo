@@ -1,10 +1,12 @@
 pipeline {
     agent any
-    
+    environment {
+	  build_number='101'
+	  }
     stages {
         stage('Dev SCM') {
             steps {
-                echo 'Dev App'
+                echo "dev app ${build_number}"
             }
         }
 		stage('SIT SCM') {
