@@ -16,7 +16,7 @@ pipeline {
         }
 		stage('Prod SCM') {
             steps {
-                echo 'Prod App Changing '
+                echo 'Prod App Changings '
             }
         }
     }
