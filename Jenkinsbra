@@ -1,0 +1,28 @@
+pipeline {
+    agent any
+	  environment {
+	  build_number='101'
+	  }
+    stages {
+        stage('Dev') {
+            steps {
+                echo "Dev App ${build_number}"
+				
+            }
+        }
+		stage('SIT') {
+            steps {
+                echo 'STAGING App'
+            }
+        }
+		stage('Prod') {
+		
+		  environment {
+	      status='pass'
+	    }
+            steps {
+                echo "Prod App ${status}"
+            }
+        }
+    }
+}
